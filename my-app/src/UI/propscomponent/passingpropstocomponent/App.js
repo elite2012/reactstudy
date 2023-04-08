@@ -1,7 +1,9 @@
 import { getImageUrl } from './utils.js';
+//向组件传递 props
 
 function Avatar({ person, size }) {
   return (
+    //步骤 2: 在子组件中读取 props 
     <img
       className="avatar"
       src={getImageUrl(person)}
@@ -13,7 +15,9 @@ function Avatar({ person, size }) {
 }
 
 export default function Profile() {
+  
   return (
+    //步骤 1: 将 props 传递给子组件
     <div>
       <Avatar
         size={100}
