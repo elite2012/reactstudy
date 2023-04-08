@@ -1,13 +1,13 @@
 import { getImageUrl } from './utils.js';
-
-function Avatar({ person, size }) {
+//未实现
+function Avatar(props) {
   return (
     <img
       className="avatar"
-      src={getImageUrl(person)}
-      alt={person.name}
-      width={size}
-      height={size}
+      src={getImageUrl(props.person)}
+      alt={props.name}
+      width={props.size}
+      height={props.size}
     />
   );
 }
