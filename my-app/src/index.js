@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './UI/propscomponent/reacp/1-Extractacomponent/App'
-//这个 Gallery 组件包含两份个人资料，其中有一些非常相似的标签
-//。从中提取一个 Profile 组件以减少重复。你需要选择要传递哪些 props。
+//第 2 个挑战 共 3 个挑战: 根据 props 调整图像大小。
 
 ReactDOM.render(
     <App/>,
