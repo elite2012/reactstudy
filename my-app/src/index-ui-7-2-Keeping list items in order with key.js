@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './UI/8-Keeping Components Pure/1-PurityComponents as formulas/App
-//纯函数：组件作为公式 
+import App from './UI/7-Rendering Lists/2-Keeping list items in order with key/app'
+//用 `key` 保持列表项的顺序 
 ReactDOM.render(
     <App/>,
     document.getElementById('root')
